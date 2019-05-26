@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_marginBottom="100dp"
+        android:textAlignment="center"
+      android:textSize="20dp"
+        android:text="@string/frg1_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/frg1_ipText"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Text Here.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_frg1_sendtofrg"
+        android:text="Send to fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btn_frg1_sendtoact"
+        android:text="Send to Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"/>
+    <TextView
+        android:id="@+id/frg1_opText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmentCommunication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frg1_heading">Fragment1</string>
+    <string name="frg2_heading">Fragment2</string>
+    <string name="ma_heading">MainActivity</string>
+</resources>
